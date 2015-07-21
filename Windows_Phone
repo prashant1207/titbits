@@ -1,0 +1,16 @@
+Facebook App on Windows Phone
+-----------------------------
+
+Problem Text:
+Facebook App is not able to upload Image/Video status update.
+
+Observation:
+-Not able to upload image/video even while App is kept open.
+-Device is on Battery Saver Mode(Less then 20% Battery).
+-Text update is fine.
+
+Cause:
+-Probable cause of the issue might be because, Facebook App uses Background Agent for uploading image and video even if the   App is open and running on the foreground. Since Device is under Battery Saver Mode and all the Background Agent are       suspended during this mode, Uploader Agent was also suspended, and hence Image/Video was not posted.
+
+Workaround:
+-Turn off Battery Saver and Try to post update again.
