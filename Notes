@@ -1,3 +1,7 @@
 NodeJS to MongoDB using MonogJS
 -------------------------------
+Tutorial:
 http://howtonode.org/node-js-and-mongodb-getting-started-with-mongojs
+
+NPM:
+https://www.npmjs.com/package/mongojs
